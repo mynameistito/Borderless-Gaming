@@ -2,6 +2,10 @@
 [Bb]in/
 [Oo]bj/
 
+# Installer build artifacts (source .iss is committed; outputs are not)
+Installers/*.exe
+Installers/*.zip
+
 # mstest test results
 TestResults
 
