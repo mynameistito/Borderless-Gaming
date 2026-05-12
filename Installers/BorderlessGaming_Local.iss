@@ -45,14 +45,14 @@ Name: english; MessagesFile: compiler:Default.isl
 
 [Files]
 Source: {#ReleaseDir}/BorderlessGaming.exe; DestDir: {app}; Flags: ignoreversion
-Source: {#ReleaseDir}/BorderlessGaming.exe.config; DestDir: {app}
-Source: {#ReleaseDir}/BorderlessGaming.Logic.dll; DestDir: {app}
-Source: {#ReleaseDir}/CommandLine.dll; DestDir: {app}
-Source: {#ReleaseDir}/Microsoft.Win32.TaskScheduler.dll; DestDir: {app}
-Source: {#ReleaseDir}/protobuf-net.dll; DestDir: {app}
-Source: {#ReleaseDir}/Languages.zip; DestDir: {app}
-Source: ../LICENSE; DestName: License.txt; DestDir: {app}
-Source: ../README.md; DestName: Read Me.txt; DestDir: {app}
+Source: {#ReleaseDir}/BorderlessGaming.exe.config; DestDir: {app}; Flags: ignoreversion
+Source: {#ReleaseDir}/BorderlessGaming.Logic.dll; DestDir: {app}; Flags: ignoreversion
+Source: {#ReleaseDir}/CommandLine.dll; DestDir: {app}; Flags: ignoreversion
+Source: {#ReleaseDir}/Microsoft.Win32.TaskScheduler.dll; DestDir: {app}; Flags: ignoreversion
+Source: {#ReleaseDir}/protobuf-net.dll; DestDir: {app}; Flags: ignoreversion
+Source: {#ReleaseDir}/Languages.zip; DestDir: {app}; Flags: ignoreversion
+Source: ../LICENSE; DestName: License.txt; DestDir: {app}; Flags: ignoreversion
+Source: ../README.md; DestName: Read Me.txt; DestDir: {app}; Flags: ignoreversion
 
 [Tasks]
 Name: desktopicon; Description: {cm:CreateDesktopIcon}; GroupDescription: {cm:AdditionalIcons};
@@ -73,7 +73,7 @@ begin
   if CurUninstallStep = usUninstall then begin
     if MsgBox('Do you want to delete your Borderless Gaming settings and preferences as well?', mbConfirmation, MB_YESNO) = IDYES
     then begin
-      DelTree(ExpandConstant('{userappdata}\Andrew Sampson\Borderless Gaming'), True, True, True)
+      DelTree(ExpandConstant('{userappdata}\Borderless Gaming'), True, True, True)
     end;
   end;
 end;

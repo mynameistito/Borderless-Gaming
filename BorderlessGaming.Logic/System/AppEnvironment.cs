@@ -24,9 +24,7 @@ namespace BorderlessGaming.Logic.System
                 var userAppData = GetUserAppDataPath();
                 try
                 {
-                    // No version!
-                    return Environment.GetEnvironmentVariable("AppData").Trim() + "\\" + versionInfo.CompanyName +
-                           "\\" + versionInfo.ProductName;
+                    return Environment.GetEnvironmentVariable("AppData").Trim() + "\\" + versionInfo.ProductName;
                 }
                 catch
                 {
