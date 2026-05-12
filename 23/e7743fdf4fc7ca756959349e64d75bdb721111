@@ -1,0 +1,42 @@
+BorderlessGaming.Logic/BorderlessGaming.Logic.csproj
+  s_0e8284957e8c0b::t_00c7eafe944ad9 68
+BorderlessGaming.Logic/Models/AppSettings.cs
+  s_0e8284957e8c0b::t_a0658edc279c07 51-53
+BorderlessGaming/Forms/AboutForm.cs
+  s_0e8284957e8c0b::t_7ac942d41d7323 4-5
+  s_0e8284957e8c0b::t_32791536e380ff 22
+BorderlessGaming.Logic/Core/ThemeManager.cs
+  s_0e8284957e8c0b::t_507f580c8d7c2b 2
+  s_0e8284957e8c0b::t_cce36a0a772476 138
+  s_0e8284957e8c0b::t_2034e565c79899 184,188,193-195
+  s_0e8284957e8c0b::t_41412fa8afbcca 1,3-100,102,105,113,116,134,136-137,139-183,185-187,189-192,196-224
+  s_0e8284957e8c0b::t_ce10a10244cbe0 101,103-104,106-112,114-115,117-133,135
+BorderlessGaming/Forms/MainWindow.Designer.cs
+  s_0e8284957e8c0b::t_03de75647a7d01 823
+  s_0e8284957e8c0b::t_f05063aa0363fc 80
+  s_0e8284957e8c0b::t_11972a614b518d 483-490
+  s_0e8284957e8c0b::t_57fee5a0fec076 451
+BorderlessGaming/Forms/InputText.cs
+  s_0e8284957e8c0b::t_f1192891ac842d 3-4,13
+BorderlessGaming/Properties/AssemblyInfo.cs
+  s_0e8284957e8c0b::t_18df6dd9134f58 39-40
+BorderlessGaming/Forms/MainWindow.cs
+  s_0e8284957e8c0b::t_42923226fed1f1 921-922
+  s_0e8284957e8c0b::t_1f56f964869c83 43-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "23e7743fdf4fc7ca756959349e64d75bdb721111",
+  "prompts": {},
+  "sessions": {
+    "s_0e8284957e8c0b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bad6f12a-0792-44df-ac17-65fe69f45959",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Tito <github@mynameistito.com>"
+    }
+  }
+}
