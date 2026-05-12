@@ -1,0 +1,24 @@
+Installers/BorderlessGaming_Local.iss
+  s_0e8284957e8c0b::t_d8a152b3dc34bd 76
+  s_0e8284957e8c0b::t_b78332f0ec8d70 48-55
+BorderlessGaming/Properties/AssemblyInfo.cs
+  s_0e8284957e8c0b::t_b565c70d43a873 39-40
+BorderlessGaming.Logic/System/AppEnvironment.cs
+  s_0e8284957e8c0b::t_b19926d0c2cb18 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "ffed910c40865560ed46ef18cdb11d5323e83279",
+  "prompts": {},
+  "sessions": {
+    "s_0e8284957e8c0b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bad6f12a-0792-44df-ac17-65fe69f45959",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Tito <github@mynameistito.com>"
+    }
+  }
+}
