@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\LanguageManager.cs" />
+    <Compile Include="Core\ThemeManager.cs" />
     <Compile Include="Core\ProcessWatcher.cs" />
     <Compile Include="Extensions\CrossThreadExtensions.cs" />
     <Compile Include="Extensions\ProcessExtensions.cs" />

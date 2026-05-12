@@ -48,5 +48,8 @@ namespace BorderlessGaming.Logic.Models
         [DefaultValue(true)]
         public bool ShowAdOnStart { get; set; } = true;
 
+        [ProtoMember(14)]
+        public bool UseDarkMode { get; set; }
+
     }
 }

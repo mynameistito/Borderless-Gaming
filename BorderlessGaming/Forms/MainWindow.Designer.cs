@@ -77,6 +77,7 @@ namespace BorderlessGaming.Forms
             this.toolStripOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripRunOnStartup = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripCheckForUpdates = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripDarkMode = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripGlobalHotkey = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMouseLock = new System.Windows.Forms.ToolStripMenuItem();
@@ -447,6 +448,7 @@ namespace BorderlessGaming.Forms
             this.toolStripRunOnStartup,
             this.toolStripLanguages,
             this.toolStripCheckForUpdates,
+            this.toolStripDarkMode,
             this.toolStripMenuItem3,
             this.toolStripGlobalHotkey,
             this.toolStripMouseLock,
@@ -478,7 +480,14 @@ namespace BorderlessGaming.Forms
             this.toolStripCheckForUpdates.Name = "toolStripCheckForUpdates";
             this.toolStripCheckForUpdates.Text = LanguageManager.Data("toolStripCheckForUpdates");
             this.toolStripCheckForUpdates.CheckedChanged += new System.EventHandler(this.toolStripCheckForUpdates_CheckedChanged);
-            // 
+            //
+            // toolStripDarkMode
+            //
+            this.toolStripDarkMode.CheckOnClick = true;
+            this.toolStripDarkMode.Name = "toolStripDarkMode";
+            this.toolStripDarkMode.Text = "Dark Mode";
+            this.toolStripDarkMode.CheckedChanged += new System.EventHandler(this.toolStripDarkMode_CheckedChanged);
+            //
             // toolStripMenuItem3
             // 
             resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
@@ -811,6 +820,7 @@ namespace BorderlessGaming.Forms
         private System.Windows.Forms.ToolStripMenuItem toolStripCloseToTray;
         private System.Windows.Forms.ToolStripMenuItem toolStripHideBalloonTips;
         private System.Windows.Forms.ToolStripMenuItem toolStripCheckForUpdates;
+        private System.Windows.Forms.ToolStripMenuItem toolStripDarkMode;
         private System.Windows.Forms.StatusStrip statusStrip1;
         public System.Windows.Forms.ToolStripStatusLabel statusLabel;//this might get replaced if you redo anything in the form designer
         private System.Windows.Forms.ToolStripMenuItem toolStripViewFullProcessDetails;

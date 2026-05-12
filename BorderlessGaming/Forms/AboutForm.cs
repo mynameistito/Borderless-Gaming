@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Reflection;
 using System.Windows.Forms;
+using BorderlessGaming.Logic.Core;
+using BorderlessGaming.Logic.Models;
 using BorderlessGaming.Logic.System;
 
 namespace BorderlessGaming.Forms
@@ -17,6 +19,7 @@ namespace BorderlessGaming.Forms
             // removed .Version.ToString(2) in favor of just .ToString() here so we can see the build number now
             versionLabel.Text = "Borderless Gaming " + Assembly.GetExecutingAssembly().GetName().Version;
             _copyrightLabel.Text = "Copyright © 2014-" + DateTime.Now.Year + " Andrew Sampson";
+            ThemeManager.Apply(this, Config.Instance.AppSettings.UseDarkMode);
         }
 
         #region Project and Maintainer Links

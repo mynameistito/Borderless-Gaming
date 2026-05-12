@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using BorderlessGaming.Logic.Core;
+using BorderlessGaming.Logic.Models;
 
 namespace BorderlessGaming.Forms
 {
@@ -8,6 +10,7 @@ namespace BorderlessGaming.Forms
         public InputText()
         {
             InitializeComponent();
+            Load += (s, e) => ThemeManager.Apply(this, Config.Instance.AppSettings.UseDarkMode);
         }
 
         public string Title

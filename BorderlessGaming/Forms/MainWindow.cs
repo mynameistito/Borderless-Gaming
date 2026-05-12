@@ -40,6 +40,14 @@ namespace BorderlessGaming.Forms
             Config.Save();
         }
 
+        private void toolStripDarkMode_CheckedChanged(object sender, EventArgs e)
+        {
+            Config.Instance.AppSettings.UseDarkMode = toolStripDarkMode.Checked;
+            Config.Save();
+            ThemeManager.Apply(this, toolStripDarkMode.Checked);
+            Invalidate(true);
+        }
+
         #region Local data
 
         /// <summary>
@@ -910,6 +918,8 @@ fav.PositionX.ToString()), out int favPositionX);
             toolStripCloseToTray.Checked = settings.CloseToTray;
             toolStripViewFullProcessDetails.Checked = settings.ViewAllProcessDetails;
             toolStripSlowWindowDetection.Checked = settings.SlowWindowDetection;
+            toolStripDarkMode.Checked = settings.UseDarkMode;
+            ThemeManager.Apply(this, settings.UseDarkMode);
 
             // minimize the window if desired (hiding done in Shown)
             if (settings.StartMinimized || Config.Instance.StartupOptions.Minimize)
