@@ -1,0 +1,21 @@
+.gitignore
+  s_0e8284957e8c0b::t_ec80df244567c1 5-8
+Installers/BorderlessGaming_Local.iss
+  s_0e8284957e8c0b::t_7e4afa67824529 1-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "e539fb4fe541f3863dc11bb90437dd96edacb92a",
+  "prompts": {},
+  "sessions": {
+    "s_0e8284957e8c0b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bad6f12a-0792-44df-ac17-65fe69f45959",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Tito <github@mynameistito.com>"
+    }
+  }
+}
